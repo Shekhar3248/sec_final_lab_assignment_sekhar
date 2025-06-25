@@ -1,0 +1,48 @@
+? Introduction to Git
+Git is a distributed version control system used to track changes in source code and manage collaborative software development. It helps developers work together on the same project without interfering with each other’s progress.
+
+?? How Git Helps in Distributing Work Over the Internet
+Git helps distribute work over the internet through remote repositories, most commonly hosted on platforms like GitHub, GitLab, Bitbucket, etc.
+
+Here’s how Git facilitates distribution:
+?? 1. Code Sharing via Remote Repositories
+Developers can push their code to a remote Git repository.
+Others can clone or pull the code from that repository.
+Everyone works on a common base while keeping a full copy of the project locally.
+?? Example:
+You push your LaTeX file to GitHub ? teammates can clone it ? make changes ? push back.
+
+?? 2. Enables Collaboration
+Git allows multiple developers to contribute simultaneously.
+Changes are managed via branches, so developers work independently.
+After testing, branches are merged into the main project.
+?? Example:
+One team member edits the LaTeX structure; another adds tables. Git manages both changes without conflict.
+
+?? 3. Maintains History and Versions
+Git stores a complete history of every change with timestamp and author info.
+This makes it easy to revert to any previous version if needed.
+?? Example:
+If your latest LaTeX changes cause errors, you can go back to the last working version with one command.
+?? 4. Works Across the Internet
+Git repositories are accessible anywhere with internet access.
+Developers can work remotely and asynchronously (at different times).
+It removes the need for emailing files or using USB drives.
+
+?? 5. Secures and Controls Access
+You can control who can view or edit the repository.
+Git supports authentication and encryption, ensuring code is shared securely.
+?? 6. Supports Pull Requests & Code Review
+Git platforms allow team members to submit pull requests.
+Others can review, comment, and approve changes before merging.
+?? Summary Table
+Feature Benefit
+
+Remote repository Easy sharing and distribution
+Branching Safe parallel development
+Version control Full project history and backup
+Internet accessibility Work from anywhere
+Collaboration tools Pull requests, issue tracking, etc.
+? Conclusion
+
+In summary, Git acts as a collaborative bridge for developers, enabling them to write, share, review, and distribute code efficiently over the internet. It ensures teamwork, version safety, and continuous development without conflicts.
